@@ -1,0 +1,4 @@
+export enum PREGUNTAS_ESTADO {
+    ACTIVO = 'ACTIVO',
+    ELIMINADO = 'ELIMINADO',
+}
