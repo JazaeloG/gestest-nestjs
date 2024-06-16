@@ -10,7 +10,7 @@ export class AuthController {
   @Post('register')
   register(
     @Body()
-    registerDto: RegisterDto,
+    registerDto: any,
   ) {
     return this.authService.register(registerDto);
   }
@@ -18,7 +18,7 @@ export class AuthController {
   @Post('register_admin')
   registerAdmin(
     @Body()
-    registerDto: RegisterDto,
+    registerDto: any,
   ) {
     return this.authService.register_Admin(registerDto);
   }
